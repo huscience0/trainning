@@ -18,6 +18,7 @@ void BubbleSort (SqList *L)
 				flag = TRUE;
 			}
 		}
+		cnt++;
 	}
-	printf ("Swap cnt = %d\n", cnt);
+	printf ("Compare cnt = %d\n", cnt);
 }
